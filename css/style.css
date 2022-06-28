@@ -1,0 +1,173 @@
+@font-face {
+    src: url(../css/fonts/Comfortaa-Bold.ttf);
+    font-family: "Comfortaa";
+}
+
+@font-face {
+    src: url(../css/fonts/BlackHanSans-Regular.ttf);
+    font-family: "Mukta";
+}
+
+.f-style {
+    font-family: "Comfortaa";
+}
+
+.f-m-style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #0051ff;
+    background: -webkit-linear-gradient(to right, #87c9ff, #000a20);
+    background: linear-gradient(to right, #8357fd, #296dec);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.a:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.a {
+    background: linear-gradient( to right, rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient( to right, #fff, #fff, #fff);
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms;
+}
+
+.btn-back {
+    background: #000c25;
+    background: -webkit-linear-gradient(to right, #1160c78f, #4777df);
+    background: linear-gradient(to right, #5b49f5, #1159df);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+    transition: all 0.5s ease 0s;
+}
+
+.btn-back:hover {
+    transition: all 0.5s ease 0s;
+    box-shadow: 1px 1px 15px 5px rgba(36, 114, 230, 0.9);
+}
+
+.b-der {
+    border-style: solid;
+    border-width: 1px;
+    border-image: conic-gradient(rgb(181, 91, 255), rgb(167, 136, 255), rgb(108, 92, 255), rgb(136, 84, 233), rgb(159, 97, 240)) 1;
+}
+
+.btn-hover {
+    transition: all 0.5s ease 0s;
+}
+
+.btn-hover:hover {
+    box-shadow: 1px 1px 15px 5px rgba(92, 190, 255, 0.4);
+}
+
+.bg-primary {
+    background-color: #000 !important;
+}
+
+.main-background {
+    background-image: url(../img/nout-kotik.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 677px;
+}
+
+.ic {
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.twitter:hover {
+    transform: translate(0px, -6px);
+    color: rgb(12, 115, 250);
+}
+
+.skype:hover {
+    transform: translate(0px, -6px);
+    color: rgb(114, 158, 253);
+}
+
+.instagram:hover {
+    transform: translate(0px, -6px);
+    background: #ff5100;
+    background: linear-gradient(to right, #ff9100, #ff1e00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.bg-dark-back {
+    background-color: rgb(20, 19, 19);
+}
+
+.icon-hover {
+    color: gray;
+    transition: all 0.5s ease 0s;
+}
+
+.icon-hover:hover {
+    color: white;
+}
+
+.ps-right {
+    height: 296px;
+    width: 30px;
+    background: #8a6dfd;
+    background: -webkit-linear-gradient(to right, #ffffff, #9baaca);
+    background: linear-gradient(to right, #407df0, #8d6ce7);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+}
+
+.ps-top {
+    height: 28px;
+    width: 496px;
+    background: #5689f8;
+    background: -webkit-linear-gradient(to right, #87c9ff, #000a20);
+    background: linear-gradient(to right, #2946ec, #b39bf7);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+}
+
+.ps-bottom {
+    height: 28px;
+    width: 496px;
+    background: #8a6dfd;
+    background: -webkit-linear-gradient(to right, #ffffff, #9baaca);
+    background: linear-gradient(to right, #588beb, #8d6ce7);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+}
+
+.ps-bottom-right {
+    height: 296px;
+    width: 30px;
+    background: #8a6dfd;
+    background: -webkit-linear-gradient(to right, #ffffff, #9baaca);
+    background: linear-gradient(to right, #8d6ce7, #588beb);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+}
+
+.padding-row {
+    padding: 14px 2px 0px 2px;
+}
+
+.padding-row-two {
+    padding: 0px 2px 14px 2px;
+}
+
+.color-text {
+    background: #8a6dfd;
+    background: -webkit-linear-gradient(to right, #ffffff, #9baaca);
+    background: linear-gradient(to right, #588beb, #8d6ce7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.ps-footer {
+    height: 10px;
+    width: 150px;
+    background: #0051ff;
+    background: -webkit-linear-gradient(to right, #1688e6, #000a20);
+    background: linear-gradient(to right, #5618ff, #608de0);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+}
